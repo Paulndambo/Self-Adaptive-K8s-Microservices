@@ -1,0 +1,222 @@
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.101907Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.102573Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.103120Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.103706Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.104355Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.104878Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.105248Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.107571Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.108125Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "844c9fdc-673d-4603-9391-b15a0502a23e", "service_name": null, "timestamp": "2026-05-25T23:18:26.108594Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.110967Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.111355Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.111806Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.112247Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.112609Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.113274Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.114238Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.116393Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.116805Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.117775Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.118244Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "3508a915-8780-4945-a374-0db3404986c2", "service_name": null, "timestamp": "2026-05-25T23:18:26.118691Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "83de0f31-1c5d-4718-baa4-1428dd3917c9", "service_name": null, "timestamp": "2026-05-25T23:18:26.120939Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "83de0f31-1c5d-4718-baa4-1428dd3917c9", "service_name": null, "timestamp": "2026-05-25T23:18:26.121331Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.821920Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.822620Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.823148Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.823744Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.824248Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.824954Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.825542Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.828070Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.828720Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "8e93c48d-45be-4a82-9780-aaf70ae7dcdc", "service_name": null, "timestamp": "2026-05-25T23:18:33.829525Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.834574Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.835273Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.835788Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.836381Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.836884Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.837461Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.837941Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.839679Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.840310Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.842097Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.842945Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "70bd3376-6e40-4ba2-914b-845fe5a292dd", "service_name": null, "timestamp": "2026-05-25T23:18:33.843748Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "0e901a70-c024-49c7-8250-7de61e41b265", "service_name": null, "timestamp": "2026-05-25T23:18:33.848093Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "0e901a70-c024-49c7-8250-7de61e41b265", "service_name": null, "timestamp": "2026-05-25T23:18:33.848946Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.923723Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.924284Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.924716Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.925264Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.925694Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.926154Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.926498Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.928011Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.928335Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "72118934-17a3-4c29-b1fc-e865fabdc34f", "service_name": null, "timestamp": "2026-05-25T23:22:03.928772Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.931461Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.931868Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.932207Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.932657Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.932980Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.933354Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.933699Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.935212Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.935750Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.936894Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.937380Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "37126f6a-abd2-4636-b281-0b7711d00529", "service_name": null, "timestamp": "2026-05-25T23:22:03.937980Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "1300d12b-198e-4f0c-b364-98d696343930", "service_name": null, "timestamp": "2026-05-25T23:22:03.942030Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "1300d12b-198e-4f0c-b364-98d696343930", "service_name": null, "timestamp": "2026-05-25T23:22:03.942495Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.494867Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.496059Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.496721Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.497471Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.498038Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.498584Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.498949Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.500335Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.500799Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "229238ae-21ff-406c-af13-e10e38d60086", "service_name": null, "timestamp": "2026-05-25T23:24:34.501375Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.503939Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.504356Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.504737Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.505394Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.505860Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.506349Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.506710Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.509448Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.509954Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.511145Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.511736Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "35570add-af43-4886-84c8-9fc4083209a7", "service_name": null, "timestamp": "2026-05-25T23:24:34.512490Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "09cdf613-2d35-4f0c-b43a-4438be61b508", "service_name": null, "timestamp": "2026-05-25T23:24:34.516244Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "09cdf613-2d35-4f0c-b43a-4438be61b508", "service_name": null, "timestamp": "2026-05-25T23:24:34.516794Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.308838Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.309536Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.310407Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.311441Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.312173Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.312822Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.313342Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.315040Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.315560Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "8b2877fe-0796-4517-a9a0-eca77f91d914", "service_name": null, "timestamp": "2026-05-25T23:26:39.316127Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.319284Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.319840Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.320336Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.320925Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.321408Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.322180Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.322734Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.324703Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.325313Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.326796Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.327654Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "a2117497-b829-45e7-a54d-6a04d644e5fd", "service_name": null, "timestamp": "2026-05-25T23:26:39.328810Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "0b416b6a-5108-4a93-aaf4-1450a219d453", "service_name": null, "timestamp": "2026-05-25T23:26:39.331896Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "0b416b6a-5108-4a93-aaf4-1450a219d453", "service_name": null, "timestamp": "2026-05-25T23:26:39.332421Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.489539Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.490137Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.490561Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.491139Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.491580Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.492146Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.492676Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.494513Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.495305Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "462b8ae1-fba4-42f2-9295-e9e8fc22bb30", "service_name": null, "timestamp": "2026-05-25T23:29:30.496178Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.501567Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.502084Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.502755Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.503541Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.504122Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.504802Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.505342Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.506788Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.507279Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.508414Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.508942Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "593098df-2dbb-4eef-aa2f-895d87d9d138", "service_name": null, "timestamp": "2026-05-25T23:29:30.509657Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "dfed0670-5279-4b6b-8574-f0b6753eb6f3", "service_name": null, "timestamp": "2026-05-25T23:29:30.513308Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "dfed0670-5279-4b6b-8574-f0b6753eb6f3", "service_name": null, "timestamp": "2026-05-25T23:29:30.513906Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.298777Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.299389Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.299859Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.300432Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.300890Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.301706Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.302426Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.304897Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.305620Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "23741755-705f-4a10-86f6-46faa799d6bb", "service_name": null, "timestamp": "2026-05-25T23:34:50.306413Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.312013Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.312732Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.313437Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.314278Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.314922Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.315547Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.316004Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.318306Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.319034Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.320560Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.321214Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "cd857e34-c94f-4345-bf4c-9ce8017b744b", "service_name": null, "timestamp": "2026-05-25T23:34:50.321894Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "c9602c95-3329-446a-af81-7d0c45f338ff", "service_name": null, "timestamp": "2026-05-25T23:34:50.326305Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "c9602c95-3329-446a-af81-7d0c45f338ff", "service_name": null, "timestamp": "2026-05-25T23:34:50.326963Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.080361Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.080959Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.081454Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.082152Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.082582Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.083086Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.083482Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.085115Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.085713Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "ca1e5c92-9581-457e-b95a-664b2fd7138c", "service_name": null, "timestamp": "2026-05-25T23:36:54.086320Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.089789Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 1, "stage": "monitor"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.090327Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.090936Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 2, "stage": "analyze"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.091624Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.092193Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 1, "stage": "plan"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.092823Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.093563Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 1, "rejected_count": 0, "stage": "safety"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.096671Z"}
+{"event_type": "stage_started", "payload": {"stage": "execute"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.097264Z"}
+{"event_type": "stage_completed", "payload": {"result_count": 1, "stage": "execute"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.098603Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.099196Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "a6dac336-10c2-474b-8070-94276d09b0b8", "service_name": null, "timestamp": "2026-05-25T23:36:54.099912Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "0b2f8176-5533-44b9-8e44-178f0f7d9c9e", "service_name": null, "timestamp": "2026-05-25T23:36:54.104118Z"}
+{"event_type": "stage_failed", "payload": {"error": "prometheus unavailable", "stage": "control_loop"}, "run_id": "0b2f8176-5533-44b9-8e44-178f0f7d9c9e", "service_name": null, "timestamp": "2026-05-25T23:36:54.104857Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.554171Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 0, "stage": "monitor"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.556230Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.556966Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 0, "stage": "analyze"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.557537Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.557935Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 0, "stage": "plan"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.558934Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.559531Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 0, "rejected_count": 0, "stage": "safety"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.561717Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.562267Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "8bd94bf7-8815-49ed-898a-958b87a743c5", "service_name": null, "timestamp": "2026-05-25T23:38:22.597077Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.541005Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 0, "stage": "monitor"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.542577Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.543078Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 0, "stage": "analyze"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.543518Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.543856Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 0, "stage": "plan"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.544592Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.545046Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 0, "rejected_count": 0, "stage": "safety"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.547208Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.547555Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "b0388221-6ead-4faa-8d97-8ea77ad5dc03", "service_name": null, "timestamp": "2026-05-25T23:42:19.575450Z"}
+{"event_type": "stage_started", "payload": {"stage": "monitor"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.735942Z"}
+{"event_type": "stage_completed", "payload": {"service_count": 0, "stage": "monitor"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.741115Z"}
+{"event_type": "stage_started", "payload": {"stage": "analyze"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.741652Z"}
+{"event_type": "stage_completed", "payload": {"findings_count": 0, "stage": "analyze"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.742454Z"}
+{"event_type": "stage_started", "payload": {"stage": "plan"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.743046Z"}
+{"event_type": "stage_completed", "payload": {"plan_count": 0, "stage": "plan"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.744013Z"}
+{"event_type": "stage_started", "payload": {"stage": "safety"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.744419Z"}
+{"event_type": "stage_completed", "payload": {"approved_count": 0, "rejected_count": 0, "stage": "safety"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.747512Z"}
+{"event_type": "stage_started", "payload": {"stage": "reasoning"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.748688Z"}
+{"event_type": "stage_completed", "payload": {"stage": "reasoning"}, "run_id": "7d629860-7edd-4619-a630-baaee9828fdb", "service_name": null, "timestamp": "2026-05-25T23:55:50.786834Z"}

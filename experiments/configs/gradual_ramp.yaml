@@ -1,0 +1,6 @@
+name: gradual_ramp
+workload: sockshop
+duration_seconds: 600
+initial_users: 25
+peak_users: 300
+ramp_step_seconds: 60

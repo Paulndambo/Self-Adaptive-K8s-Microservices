@@ -1,0 +1,9 @@
+name: pid_controller
+controller: pid
+workload: sockshop
+services:
+  - front-end
+iterations: 1
+output_dir: experiments/results/raw/baselines
+current_replicas_by_service:
+  front-end: 2

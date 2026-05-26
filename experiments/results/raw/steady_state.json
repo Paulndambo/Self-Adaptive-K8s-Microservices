@@ -1,0 +1,17 @@
+{
+  "average_latency_seconds": 4.109583541666701,
+  "base_url": "http://localhost:8080",
+  "duration_seconds": 60,
+  "failed_requests": 600,
+  "p95_latency_seconds": 4.113625569982105,
+  "requests_per_second": 10.0,
+  "scenario": "steady_state",
+  "steps": [
+    {
+      "duration_seconds": 60,
+      "users": 50
+    }
+  ],
+  "successful_requests": 0,
+  "total_requests": 600
+}

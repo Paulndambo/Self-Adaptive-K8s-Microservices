@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: front-end
+  namespace: sockshop
+  labels:
+    app: front-end
+spec:
+  type: ClusterIP
+  selector:
+    app: front-end
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: catalogue
+  namespace: sockshop
+  labels:
+    app: catalogue
+spec:
+  type: ClusterIP
+  selector:
+    app: catalogue
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: carts
+  namespace: sockshop
+  labels:
+    app: carts
+spec:
+  type: ClusterIP
+  selector:
+    app: carts
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080

@@ -1,0 +1,3 @@
+{"collected_at": "2026-05-25T23:38:22.555089Z", "metadata": {"prometheus_url": "http://localhost:9090"}, "namespace": "sockshop", "services": [], "window": "5m"}
+{"collected_at": "2026-05-25T23:42:19.541979Z", "metadata": {"prometheus_url": "http://localhost:9090"}, "namespace": "sockshop", "services": [], "window": "5m"}
+{"collected_at": "2026-05-25T23:55:50.739481Z", "metadata": {"prometheus_url": "http://localhost:9090"}, "namespace": "sockshop", "services": [], "window": "5m"}

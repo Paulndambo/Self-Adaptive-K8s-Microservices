@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: adaptive-controller-config
+  namespace: adaptive-controller
+data:
+  PROMETHEUS_URL: "http://kube-prometheus-stack-prometheus.monitoring:9090"
+  KUBERNETES_NAMESPACE: "sockshop"
+  TARGET_SERVICES: "front-end,catalogue,carts"
+  PROMETHEUS_QUERY_WINDOW: "5m"
+  MIN_REPLICAS: "1"
+  MAX_REPLICAS: "10"
+  MAX_TOTAL_REPLICAS: "30"
+  ADAPTATION_COOLDOWN_SECONDS: "300"
+  REASONING_ENABLED: "false"

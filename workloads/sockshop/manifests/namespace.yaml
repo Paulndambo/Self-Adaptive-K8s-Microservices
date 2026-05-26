@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sockshop
+  labels:
+    app.kubernetes.io/name: sockshop
+    adaptive-controller/workload: sockshop

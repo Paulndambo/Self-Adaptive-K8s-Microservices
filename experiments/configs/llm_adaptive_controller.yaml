@@ -1,0 +1,10 @@
+name: llm_adaptive_controller
+controller: adaptive
+workload: sockshop
+services:
+  - front-end
+iterations: 1
+execute_actions: false
+output_dir: experiments/results/raw
+current_replicas_by_service:
+  front-end: 2

@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adaptive-controller
+  namespace: adaptive-controller
+  labels:
+    app: adaptive-controller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adaptive-controller
+  template:
+    metadata:
+      labels:
+        app: adaptive-controller
+    spec:
+      serviceAccountName: adaptive-controller
+      containers:
+        - name: controller
+          image: adaptive-controller:local
+          imagePullPolicy: IfNotPresent
+          command: ["python", "-m", "adaptive_controller.main"]
+          envFrom:
+            - configMapRef:
+                name: adaptive-controller-config
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi

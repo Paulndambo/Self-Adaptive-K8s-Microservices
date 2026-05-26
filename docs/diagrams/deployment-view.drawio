@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="deployment-view" name="Deployment View">
+        <mxGraphModel dx="1086" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="cluster" value="Kubernetes Cluster" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="50" width="1000" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="monitoring" value="monitoring namespace&#xa;Prometheus + Grafana" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cluster" vertex="1">
+                    <mxGeometry x="40" y="140" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="controller" value="adaptive-controller namespace&#xa;Controller Pod&#xa;ServiceAccount + ConfigMap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="cluster" vertex="1">
+                    <mxGeometry x="390" y="80" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="sockshop" value="sockshop namespace&#xa;front-end, catalogue, carts&#xa;Deployments + Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="cluster" vertex="1">
+                    <mxGeometry x="720" y="80" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="hpa" value="HPA Baselines&#xa;front-end-hpa&#xa;catalogue-hpa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="cluster" vertex="1">
+                    <mxGeometry x="720" y="280" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="rbac" value="RBAC&#xa;patch deployments/scale" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="cluster" vertex="1">
+                    <mxGeometry x="390" y="390" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="loadtests" value="Experiment Runner&#xa;Sock Shop load tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="cluster" vertex="1">
+                    <mxGeometry x="60" y="300" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" value="PromQL queries" style="endArrow=block;html=1;" parent="cluster" source="controller" target="monitoring" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" value="scrapes metrics" style="endArrow=block;html=1;" parent="cluster" source="monitoring" target="sockshop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" value="scale approved plans" style="endArrow=block;html=1;" parent="cluster" source="controller" target="sockshop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="authorizes" style="endArrow=block;html=1;" parent="cluster" source="rbac" target="controller" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" value="traffic" style="endArrow=block;html=1;" parent="cluster" source="loadtests" target="sockshop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" value="baseline scaling" style="endArrow=block;html=1;dashed=1;" parent="cluster" source="hpa" target="sockshop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

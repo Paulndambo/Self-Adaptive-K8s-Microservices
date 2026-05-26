@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: adaptive-controller
+  namespace: sockshop
+subjects:
+  - kind: ServiceAccount
+    name: adaptive-controller
+    namespace: adaptive-controller
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: adaptive-controller

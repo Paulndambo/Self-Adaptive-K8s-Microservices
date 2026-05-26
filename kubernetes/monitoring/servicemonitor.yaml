@@ -1,0 +1,23 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: sockshop-services
+  namespace: monitoring
+  labels:
+    release: kube-prometheus-stack
+spec:
+  namespaceSelector:
+    matchNames:
+      - sockshop
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - front-end
+          - catalogue
+          - carts
+  endpoints:
+    - port: http
+      interval: 15s
+      path: /

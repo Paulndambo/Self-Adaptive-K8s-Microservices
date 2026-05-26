@@ -1,0 +1,34 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "panels": [
+    {
+      "datasource": "Prometheus",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "targets": [
+        {
+          "expr": "sum(rate(container_cpu_usage_seconds_total{namespace=\"sockshop\",container!=\"\",container!=\"POD\"}[5m])) by (pod)",
+          "refId": "A"
+        }
+      ],
+      "title": "Sock Shop CPU Usage",
+      "type": "timeseries"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": ["adaptive-controller", "sockshop"],
+  "title": "Adaptive Controller Experiment Dashboard",
+  "version": 1
+}

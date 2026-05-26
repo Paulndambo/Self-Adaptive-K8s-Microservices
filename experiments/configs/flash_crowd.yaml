@@ -1,0 +1,6 @@
+name: flash_crowd
+workload: sockshop
+duration_seconds: 300
+initial_users: 50
+peak_users: 500
+surge_after_seconds: 60
